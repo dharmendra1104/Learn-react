@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px;
+    background-color: skyblue;
+    font-weight: 800;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
