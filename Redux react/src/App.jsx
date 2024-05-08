@@ -1,19 +1,21 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import { Provider } from 'react-redux'
+import store from './redux/Store'
 
-let arr=["item1","item2","item3","item4"]
-console.log(arr[0])
 function App() {
   // const [count, setCount] = useState(0)
   
   return (
     <>
+    <Provider store={store}>
+    <h3>Redux</h3>
       <div>
-        <input type="text" />
-        <div></div>
+       
       </div>
+    </Provider>
     </>
   )
 }
