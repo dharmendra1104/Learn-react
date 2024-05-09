@@ -17,7 +17,7 @@ const [theme,setTheme]=useState('')
                 <h1 className='text-3xl font-bold underline'>
                     hello
                 </h1>
-                <div className="bg-slate-500 flex gap-5">
+                <div className="flex gap-5">
                     {/* <button className="btn btn-neutral">Neutral</button>
                 <button className="btn btn-primary">Primary</button>
                 <button className="btn btn-secondary">Secondary</button>

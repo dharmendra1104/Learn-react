@@ -4,18 +4,22 @@ import { useState } from 'react'
 import './App.css'
 import { Provider } from 'react-redux'
 import store from './redux/Store'
+import ButtonAppBar from './redux/harry/Nav'
+import Nav from './redux/harry/Nav'
 
 function App() {
   // const [count, setCount] = useState(0)
   
   return (
     <>
-    <Provider store={store}>
+    <Nav/>
+    {/* <ButtonAppBar/> */}
+    {/* <Provider store={store}>
     <h3>Redux</h3>
       <div>
        
       </div>
-    </Provider>
+    </Provider> */}
     </>
   )
 }
